@@ -51,8 +51,9 @@ class BTS:
                 current.right = new
             else: 
                 self.insert_recursive(new, current.right)
-        current.height = 1 + max(self.get_hight(current.left), self.get_hight(current.right))## Buscar 
+       
 
+    
     def min(self):
         """Devuelve el valor mínimo en el árbol, utiliza la min_recursive, luego hace una comparación y si
         no encuentra nada en el arbol, es decir, esta vacio manda None
@@ -80,6 +81,8 @@ class BTS:
            return None
         else:
            return self.max_recursive(self.root)
+    
+    
     
     def max_recursive(self, current):
         """
@@ -143,6 +146,3 @@ class BTS:
                 current = current.right
             level += 1
         return None
-    
-    
-

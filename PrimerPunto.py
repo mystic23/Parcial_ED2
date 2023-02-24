@@ -105,12 +105,3 @@ print("Ancestro común más profundo de", node1.data, "y", node2.data, "es", lca
 print("Ancestro común más profundo de", node3.data, "y", node4.data, "es", lca1.data)
 print("Ancestro común más profundo de", node5.data, "y", node6.data, "es", lca2.data)
 print("Ancestro común más profundo de", node7.data, "y", node8.data, "es", Ica3.data)
-
-
-
-
-
-
-
-
-
