@@ -2,6 +2,11 @@ from typing import List
 
 class Nodo:
     def __init__(self, value: int) -> None:
+        """Nodo del arbol y su informacion, se inicializa los valores, y los hijos
+        izquierdos y derechos como None y la altura que yo uso es 1, aunque aqui realmente no usare eso
+
+       
+        """
         self.value = value
         self.left = None
         self.right = None
@@ -14,7 +19,7 @@ class BTS:
 
 ##Raiz  
     def __init__(self) :
-     
+    
         self.root = None 
 ## Insert individual, manual , list
 
@@ -45,7 +50,7 @@ class BTS:
     def insert_recursive(self, new:Nodo, current:Nodo):
         """
         Esta es la función recursiva que se encarga de se insertar los valores al
-        arbol, estos valores pueden ser repetidos
+        arbol
 
         Args:
             new : Nodo nuevo
